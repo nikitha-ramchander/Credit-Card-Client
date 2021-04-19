@@ -40,6 +40,7 @@ which variables are the strongest predictors of default payment?
 
 #### Machine Learning Model 
 >From the two different Machine Learning Models implemented, Random Forests produced the highest Training Accuracy of 81%. I ran classification metrics of Sensitivity, Specificity, Precision, and AUC ROC. It depends on the credit card compnies goal and which metric they want focus in on. For example, if the company wants to make sure they’re only approving loans for people that will pay them back then they will focus on Precision. Precision score was 63% meaning you are 63% correct for clients that you do predict will default. I also looked at the important features in this model which was Pay_0, Age, and BILL_AMT1. These three features were also the most important in Logistic Regression.
+
 ![Pic 6](https://user-images.githubusercontent.com/77766107/115169143-0f662380-a072-11eb-95cb-8645d282ef3e.png)
 
 #### Recommendations
